@@ -1,0 +1,41 @@
+header {
+    font: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilo {
+    color: palevioletred;
+    width: 100vw;
+    background-color: black;
+}
+p.estilo {
+    font-weight: bold;
+}
+#paragrafo {
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    font-style: oblique;
+}
+.menu > li {
+    display: inline;
+}
+.botao {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 5%;
+}
+
+.botao:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+.botao:active {
+    color: black;
+}
+
+img {
+    width: 100vw;
+}
