@@ -1,0 +1,17 @@
+header{
+    width: 100vw;
+    font-size: larger;
+    background-color: lightblue;
+}
+.menu > li{
+    display: inline-block;
+}
+
+.botao:hover{
+    color: black
+}
+.paisagem{
+    width: 100vw;
+    border-radius: 100%;
+    align-self: center;
+}

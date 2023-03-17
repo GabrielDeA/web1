@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício HTML - parte 1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        Página principal
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a class="botao" href="https://furb.br"> Furb.br</a> </li>
+            <li> <a class="botao" href="https://furb.br/dion"> Dion </a></li>
+            <li> <a class="botao" href="https://ava3.furb.br"> AVA3</a> </li>
+            <style>
+                td,
+                th {
+                    border: 2px solid #000000;
+                    padding: 5px;
+                }
+
+            </style>
+        </ul>
+    </nav>
+
+    <img class="paisagem" src="images/paisagem.jpg" alt="paisagem">
+
+    <div>
+        <audio controls>
+            <source src="media/sample-9s.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <table style="border: 3px solid black; border-collapse: collapse;">
+        <tr>
+            <td> a</td>
+            <td>aa</td>
+            <td> aaa</td>
+            <td> aaaa</td>
+            <td rowspan="3">aaaaa</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> b</td>
+            <td colspan="3">bb</td>
+        </tr>
+        <tr>
+            <td> c</td>
+            <td> cc</td>
+            <td> ccc</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> d </td>
+            <td colspan="4"> dd</td>
+        </tr>
+        <tr>
+            <td> e </td>
+            <td> ee </td>
+            <td> eee </td>
+            <td> eeee </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
