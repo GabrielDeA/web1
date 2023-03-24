@@ -1,0 +1,149 @@
+header {
+    font: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilo {
+    color: palevioletred;
+    width: 100vw;
+    background-color: black;
+}
+p.estilo {
+    font-weight: bold;
+}
+#paragrafo {
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    font-style: oblique;
+}
+.menu > li {
+    display: inline;
+}
+.botao {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 5%;
+}
+
+.botao:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+.botao:active {
+    color: black;
+}
+
+img {
+    width: 100vw;
+}
+
+table{
+    border: 1px solif black;
+    border-collapse: collapse ;
+}
+td{
+    border: 1px solid black;
+    padding: 1opx;
+}
+
+.tabela tr:hover{
+    background-color: aqua;
+}
+
+.tabela tr:active{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: blue;
+}
+
+.lista li:last-child{
+    color: brown;
+}
+
+.lista li::first-letter{
+    background-color: blue;
+}
+input{
+    border-radius: 23px;
+    background-color: cadetblue;
+}
+input:focus{
+    background-color: bisque;
+}
+
+.animacao1{
+    width: 100vw;
+    height: 150px;
+    border-top-left-radius: 20px;
+    animation: minhaAnimacao1 10s infinite;
+}
+#animacao2{
+    width: 150px;
+    height: 75px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    animation: minhaAnimacao2 7s infinite;
+}
+#animacao4{
+    width: 150px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    animation: minhaAnimacao2 5s infinite;
+}
+#animacao3 {
+    background-color: rebeccapurple;
+    width: 150px;
+    height: 150px;
+    position: relative;
+  /*  animation: minhaAnimacao3 3s infinite; */
+    border-radius: 6000px;
+    animation: minhaAnimacao3-2 7s infinite; 
+}
+    
+@keyframes minhaAnimacao1 {
+    0% {background-color: red;}
+    50%{background-color:  aquamarine;}
+    100%{background-color: red;}
+}
+
+@keyframes minhaAnimacao2{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 200px; top: 0px;}
+    50%{background-color: yellow; left: 200px; top: 200px}
+    75%{background-color: green; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}
+
+@keyframes minhaAnimacao3{
+    0%{background-color: red; left: 1300px; top: 300px; rotate:90deg}
+    25%{background-color: purple; left: 0px; top: 300px;rotate:180deg}
+    50%{background-color: aqua; left: 0px; top: 0px; rotate:270deg}
+    75%{background-color: black; left: 1300px; top: 0px; rotate: 360deg;}
+    75.1%{background-color: black; left:1300px; top: 0px;rotate:0deg ;}
+    100%{background-color: red; left: 1300px; top: 300px; rotate:90deg}
+}
+@keyframes minhaAnimacao3-2 {
+    0%{ background-color: red; rotate:0deg}
+    12%{rotate:45deg}
+    25%{background-color: purple; rotate: 90deg}
+    37%{ rotate: 135deg}
+    50%{background-color: aqua; rotate:180deg}
+    62%{rotate:225deg}
+    75%{background-color: black;rotate: 270deg;}
+    87%{rotate:315deg}
+    99.1%{rotate: 360deg ;}
+    100%{background-color: red; rotate:0deg}
+}
+
+
+
+
+
